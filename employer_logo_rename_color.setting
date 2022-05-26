@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<setting>
+<element type='CurrentFilename' format='lowercase' value='Name' enumerated='true' priority='normal'>
+</element>
+<element type='StringSubstitution' value='IntermediateFilename' enumerated='true' priority='normal' find='%20' ignoreCase='false' replaceAll='true' replaceWith='_' useRegularExpression='false'>
+</element>
+<element type='StringSubstitution' value='IntermediateFilename' enumerated='true' priority='normal' find='-' ignoreCase='false' replaceAll='true' replaceWith='_' useRegularExpression='false'>
+</element>
+<element type='Text' value='_color' enumerated='false' priority='normal'>
+</element>
+<element type='AutoExtension' value='' enumerated='false' priority='post'>
+</element>
+<element type='Compatibility' value='Macintosh' enumerated='true' priority='post'>
+</element>
+</setting>�
